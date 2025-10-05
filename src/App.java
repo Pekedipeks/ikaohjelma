@@ -1,7 +1,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
 
-        int ika = 18;
+        int ika = 20;
 
         // Tulostusehdot
         if (ika >= 0 && ika < 18) {
@@ -24,6 +24,11 @@ public class App {
         {
             System.out.println("Olet eläkeläinen");
         }
+        else if (ika == 20 || ika == 30 || ika == 40 || ika == 50 || ika == 60 || ika == 70 || ika == 80 || ika == 90)
+        {
+            System.out.println("Onnittelut tasavuosikymmennestä!");
+        }
+
         else {
             System.out.println("Olet aikuinen");
         }
