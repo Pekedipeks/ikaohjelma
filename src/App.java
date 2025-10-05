@@ -10,7 +10,7 @@ public class App {
                 System.out.println("Saat ajaa mopoa");
             }
             if (ika == 16 || ika == 17) {
-                System.out.println("Saat ajaa kevaria");
+                System.out.println("Saat ajaa kevaria!");
             }
         } 
         else if (ika >= 65)
